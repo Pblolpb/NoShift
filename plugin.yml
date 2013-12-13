@@ -1,0 +1,9 @@
+name: NoShift
+main: com.github.pblolpb.noshift.NoShift
+version: 1.0
+author: Pblolpb
+
+permissions:
+  noshift.shift:
+    description: Allows you to shift
+    default: op
