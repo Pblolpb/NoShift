@@ -18,7 +18,7 @@ public class NoShift extends JavaPlugin implements Listener {
 	public void onPlayerShift(PlayerToggleSneakEvent event){
 		Player player = event.getPlayer();
 		if(!player.hasPermission("noshift.shift")){
-			if(!event.isSneaking()){
+			if(event.isSneaking()){
 				event.setCancelled(true);
 			}
 		}
